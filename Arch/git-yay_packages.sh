@@ -4,8 +4,9 @@ cd ~/Downloads
 ide="android-studio arduino-ide-bin visual-studio-code-bin rstudio-desktop-bin"
 motrix="aria2-fast motrix"
 general="anydesk-bin google-chrome protonvpn sticky-notes ttf-times-new-roman tty-clock wps-office yay"
+python="python-progress python-program"
 
-all="$ide $motrix $general"
+all="$ide $motrix $general $python"
 for package in $all; do
     echo "Installing $package"
     git clone https://aur.archlinux.org/"$package".git
