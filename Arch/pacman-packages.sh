@@ -17,4 +17,4 @@ ssh="openssh tmate"
 sys_info="htop neofetch"
 terminal_editors="nano vim"
 
-pacman -S $archive_tools $boot $browsers $bt $chat_apps $download_tools $env_tools $firewall $fs $general $gpu_packages $ide $kernel_firmware $networking $ssh $sys_info $terminal_editors
+pacman -S $archive_tools $boot $browsers $bt $chat_apps $download_tools $env_tools $firewall $fs $general $gpu_packages $ide $kernel_firmware $networking $python $ssh $sys_info $terminal_editors
