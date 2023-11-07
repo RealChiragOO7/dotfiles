@@ -3,6 +3,7 @@ boot="efibootmgr grub os-prober"
 browsers="firefox tor torbrowser-launcher"
 bt="alsa-utils bluez bluez-utils"
 chat_apps="discord telegram-desktop"
+docker="docker docker-buildx"
 download_tools="curl rsync wget yt-dlp"
 env_tools="android-tools bc ccache clang docker flatpak fwupd libc++ packagekit-qt5 sdl"
 firewall="gufw"
@@ -17,4 +18,4 @@ ssh="openssh tmate"
 sys_info="htop neofetch"
 terminal_editors="nano vim"
 
-pacman -S $archive_tools $boot $browsers $bt $chat_apps $download_tools $env_tools $firewall $fs $general $gpu_packages $ide $kernel_firmware $networking $python $ssh $sys_info $terminal_editors
+pacman -S $archive_tools $boot $browsers $bt $chat_apps $docker $download_tools $env_tools $firewall $fs $general $gpu_packages $ide $kernel_firmware $networking $python $ssh $sys_info $terminal_editors
