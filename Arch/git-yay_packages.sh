@@ -3,7 +3,7 @@ cd /usr/share/icons && sudo git clone https://github.com/EliverLara/candy-icons
 cd ~/Downloads
 ide="android-studio arduino-ide-bin visual-studio-code-bin rstudio-desktop-bin"
 motrix="aria2-fast motrix"
-general="anydesk-bin google-chrome protonvpn sticky-notes ttf-times-new-roman tty-clock wps-office yay"
+general="anydesk-bin google-chrome sticky-notes protonvpn-gui ttf-times-new-roman tty-clock wps-office yay"
 python="python-progress python-program"
 
 all="$ide $motrix $general $python"
