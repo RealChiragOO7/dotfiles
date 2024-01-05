@@ -1,5 +1,3 @@
-cd /usr/share/icons && sudo git clone https://github.com/EliverLara/candy-icons
-
 cd ~/Downloads
 ide="android-studio arduino-ide-bin visual-studio-code-bin rstudio-desktop-bin"
 motrix="aria2-fast motrix"
@@ -13,13 +11,4 @@ for package in $all; do
     makepkg -si --noconfirm --needed
     cd - || exit
     rm -rf "$package"
-done
-
-## Some after installation commands
-libtool --finish /usr/lib
-
-#sudo chown -R $USER:$USER /opt/android-studio
-dirs_usr="idea pycharm"
-for i in dirs_usr; do
-    sudo chown -R $USER:$USER /usr/share/"$i"/
 done
