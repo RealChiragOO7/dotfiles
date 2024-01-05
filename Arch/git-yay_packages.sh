@@ -3,10 +3,9 @@ cd /usr/share/icons && sudo git clone https://github.com/EliverLara/candy-icons
 cd ~/Downloads
 ide="android-studio arduino-ide-bin visual-studio-code-bin rstudio-desktop-bin"
 motrix="aria2-fast motrix"
-general="anydesk-bin google-chrome protonvpn-gui sticky-notes ttf-times-new-roman tty-clock wps-office yay"
-python="python-progress python-program"
+general="anydesk-bin cava google-chrome realvnc-vnc-viewer sticky-notes ttf-times-new-roman tty-clock yay"
 
-all="$ide $motrix $general $python"
+all="$ide $motrix $general"
 for package in $all; do
     echo "Installing $package"
     git clone https://aur.archlinux.org/"$package".git
@@ -21,8 +20,6 @@ libtool --finish /usr/lib
 
 #sudo chown -R $USER:$USER /opt/android-studio
 dirs_usr="idea pycharm"
-for i in dirs; do
-    sudo chown -R $USER:$USER /usr/share/"dirs"
+for i in dirs_usr; do
+    sudo chown -R $USER:$USER /usr/share/"$i"/
 done
-
-yay ncurses5-compat-libs obs-studio-git
