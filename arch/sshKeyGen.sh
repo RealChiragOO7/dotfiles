@@ -1,5 +1,5 @@
 # Generate ssh keys
-ssh-keygen -t ed25519 -C "chirag1044gupta@gmail.com"
+ssh-keygen -t ed25519 -C "email@gmail.com"
 
 # Start ssh agent in background
 eval "$(ssh-agent -s)"
