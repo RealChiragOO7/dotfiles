@@ -1,7 +1,7 @@
 cd ~/Downloads
 
 ide="android-studio arduino-ide-bin visual-studio-code-bin rstudio-desktop-bin"
-general="anydesk-bin google-chrome rate-mirrors sticky-notes ttf-times-new-roman yay"
+general="anydesk-bin google-chrome rate-mirrors ttf-times-new-roman yay"
 
 all="$ide $general"
 for package in $all; do
