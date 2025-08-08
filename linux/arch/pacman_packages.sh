@@ -7,10 +7,10 @@ codecs="flac faac wavpack libmad opus libvorbis libwebp x265 libde265 x264 libmp
 download="aria2 curl rclone wget yt-dlp"
 env="android-tools bc clang docker docker-compose gcc gdb libc++ nodejs npm sdl yarn"
 firewall="ufw"
+fonts="noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-dejavu ttf-liberation"
 fs="dosfstools mtools squashfs-tools"
 general="dialog ffmpeg git krita less libusb-compat networkmanager obs-studio qbittorrent repo scrcpy sudo wpa_supplicant"
 gpu="amd-ucode libva-mesa-driver mesa vulkan-radeon xf86-video-amdgpu"
-ide="pycharm-community-edition"
 kernel="linux linux-firmware linux-headers"
 mpv="mpv mpv-mpris"
 networking="iputils net-tools"
@@ -21,4 +21,4 @@ ssh="openssh putty tmate"
 sys_info="fastfetch htop smartmontools"
 terminal_editors="gedit nano vim"
 
-pacman -S $archive $boot $browser $bt $chat $codecs $download $env $firewall $fs $general $gpu $ide $kernel $mpv $networking $pipewire $printer $py $ssh $sys_info $terminal_editors
+pacman -S $archive $boot $browser $bt $chat $codecs $download $env $firewall $fonts $fs $general $gpu $kernel $mpv $networking $pipewire $printer $py $ssh $sys_info $terminal_editors
