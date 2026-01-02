@@ -13,5 +13,9 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RealChiragOO7/dotfiles
 ```
 Powershell.exe -ExecutionPolicy RemoteSigned -File  "C:\adb_usb_driver.ps1"
 ```
+OR 
+```
+winget install Google.PlatformTools
+```
 3. Go to Windows Update and check for "Optional Updates"
 4. Enjoy :)
