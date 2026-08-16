@@ -1,0 +1,17 @@
+# ls
+alias ls='ls --color=auto'
+alias ll='ls -lah'
+
+# Grep
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+# Axel
+alias axs='aria2c -x8 -s8'
+
+# Fastfetch
+alias ff='fastfetch'
+
+# Pacman
+alias pacup='sudo pacman -Syyu'
+alias pacin='sudo pacman -S'
